@@ -113,7 +113,7 @@ a:hover {
 
 
 
-.wrapper_slider{
+.wrapper_media{
   height: 600px;
   background-color: #f06c64;
   border-bottom: solid 5px #ea676b;
@@ -132,7 +132,7 @@ a:hover {
   z-index: 3;
 
 }
-.screen {
+.iphone_yellow {
   position: absolute;
   top: 119px;
   left: 124px;
@@ -152,7 +152,7 @@ a:hover {
   left: 610px;
   transform: rotateZ(90deg);
 }
-.screen_blue {
+.iphone_blue {
   position: absolute;
   z-index: 7;
   right: -332px;
@@ -164,35 +164,37 @@ a:hover {
   transform: scale(-1, 1);
   left: 111px;
 }
-.left_pointer {
+.left_arrow {
   position: relative;
   transition-property: width;
-  transition-duration: 0.01s;
-  transition-timing-function: linear;
+  transition-duration: 0.09s;
+  transition-timing-function: ease-in;
    height: 28px;
    right:59px;
    top: 279px;
-  z-index: 9;
+  z-index: 8;
 }
-.left_pointer:hover {
+.left_arrow:hover {
   cursor: pointer;
   width: 20px;
-  outline-style: double;
+  outline-style: ridge;
+  outline-color: aliceblue;
 }
-.right_pointer {
+.right_arrow {
   position: relative;
   transition-property: width;
-  transition-duration: 0.01s;
-  transition-timing-function: linear;
+  transition-duration: 0.09s;
+  transition-timing-function: ease-in;
    height: 28px;
    left:863px;
    top: 253px;
-  z-index: 9;
+  z-index: 8;
 }
-.right_pointer:hover {
+.right_arrow:hover {
   cursor: pointer;
   width: 20px;
-  outline-style: double;
+  outline-style: ridge;
+  outline-color: aliceblue;
 }
 
 .wrapper_services {
@@ -207,7 +209,7 @@ h2 {margin-bottom: 16px;
     color: #666d89;
     word-spacing: -1.5px;
    }
-  .p_summary{
+  .text_summary{
 margin-top: 17px;
 margin-bottom: 43px;
 font-size: 1.8rem;
@@ -244,7 +246,7 @@ h3 {
   font-weight: 400;
   margin-bottom: 7px;
 }
-.p_chapter {
+.p_text {
   color: #767e9e;
   font-size: 1.2rem;
   line-height: 21px;
@@ -254,7 +256,6 @@ h3 {
 .services_text {
   margin-top: 1px;
   position: relative;
-  justify-self: end;
   margin-left: 80px;
   float: right;
 
