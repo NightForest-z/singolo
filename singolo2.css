@@ -37,10 +37,12 @@
     height: 870px;
     justify-self: center;
     margin: auto;
-    background-color: #2d303a;
+    background-image: url(https://raw.githubusercontent.com/rolling-scopes-school/tasks/master/tasks/markups/level-2/singolo/part-3/singolo3.png);
+    background-repeat: no-repeat repeat;
     border-bottom: solid 6px #323746;
   }
   
+
   
   .header{
     padding: 20px;
@@ -48,6 +50,7 @@
   h1, h2, h3, h4, h5, h6, p, ul {
     margin: 0;
     padding: 0;
+    color: #fff;
   }
   
   h1 {
